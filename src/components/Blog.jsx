@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import blog1 from '../assets/blog1.png';
 import blog2 from '../assets/blog2.png';
 import blog3 from '../assets/blog3.png';
-import { Custombuttons } from './CustomButtons';
+import { Custombuttons } from './Custombuttons';
 
 
 const cardData =[
