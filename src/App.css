@@ -1,0 +1,7 @@
+.blog-bg {
+    background-image: url("https://res.cloudinary.com/frizzy/image/upload/v1741451130/Healthdrive/help.png"), url("https://res.cloudinary.com/frizzy/image/upload/v1741451130/Healthdrive/handshake.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 15px 15px, 100% 100%;
+    background-size: 86px, 100px;
+}
