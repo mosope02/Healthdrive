@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Footer } from './components/footer'
+import { Footer } from './components/Footer'
 import { Contact } from './components/Contact'
 import { Blog } from './components/Blog'
 import { Projects } from './components/Projects'
