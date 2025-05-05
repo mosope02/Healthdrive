@@ -13,8 +13,8 @@ export const About = () => {
 
 
             <div className='lg:max-w-[500px] md:h-[450px] h-[380px] w-11/12 mx-auto overflow-hidden relative'>
-                <img className='lg:w-[380px] w-[88%] h-full rounded-[50px] md:rounded-[100px] relative  object-cover' src={'https://res.cloudinary.com/frizzy/image/upload/v1741564945/Healthdrive/WOrks/about1.png'} alt="" />
-                <img className='absolute -bottom-2 border-[7px] border-white border-solid left-[52%] lg:w-[193px] w-[168px] h-[250px] rounded-[50px] object-cover' src={'https://res.cloudinary.com/frizzy/image/upload/v1741564930/Healthdrive/WOrks/about2.png'} alt="" />
+                <img className='lg:w-[380px] w-[88%] h-full rounded-[50px] md:rounded-[100px] relative  object-cover' src={'https://res.cloudinary.com/frizzy/image/upload/w_800,q_auto,f_auto/v1741564945/Healthdrive/WOrks/about1.png'} alt="" />
+                <img className='absolute -bottom-2 border-[7px] border-white border-solid left-[52%] lg:w-[193px] w-[168px] h-[250px] rounded-[50px] object-cover' src={'https://res.cloudinary.com/frizzy/image/upload/w_400,q_auto,f_auto/v1741564930/Healthdrive/WOrks/about2.png'} alt="" />
             </div>
 
         </div>

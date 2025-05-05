@@ -11,15 +11,15 @@ export const Projects = () => {
         </div>
 
         <CustomcardLR 
-            mainImage={'https://res.cloudinary.com/frizzy/image/upload/v1741562012/Healthdrive/WOrks/Globalweek1.jpg'}
-            overlay={'https://res.cloudinary.com/frizzy/image/upload/v1741562008/Healthdrive/WOrks/globalweek2.jpg'}
+            mainImage={'https://res.cloudinary.com/frizzy/image/upload/w_800,q_auto,f_auto/v1741562012/Healthdrive/WOrks/Globalweek1.jpg'}
+            overlay={'https://res.cloudinary.com/frizzy/image/upload/w_400,q_auto,f_auto/v1741562008/Healthdrive/WOrks/globalweek2.jpg'}
             title={'Global Goals Week Project '}
             description={'HealthDrive Nigeria collaborated with the Sustainable Development Goals Awareness Campaign Tour (SDGsACT), Lagos State University Chapter, to drive awareness about the Sustainable Development Goals and viral hepatitis. We organized an awareness campaign walk across the university community, reaching over 20,000 students and staff members. The event concluded with free Hepatitis B screenings for hundreds of young people and a focused health education session.'}
         />
 
         <CustomcardRL
-            mainImage={'https://res.cloudinary.com/frizzy/image/upload/v1741563023/Healthdrive/WOrks/WHD22.png'}
-            overlay={'https://res.cloudinary.com/frizzy/image/upload/v1741563026/Healthdrive/WOrks/whd222.png'}
+            mainImage={'https://res.cloudinary.com/frizzy/image/upload/w_800,q_auto,f_auto/v1741563023/Healthdrive/WOrks/WHD22.png'}
+            overlay={'https://res.cloudinary.com/frizzy/image/upload/w_400,q_auto,f_auto/v1741563026/Healthdrive/WOrks/whd222.png'}
             title={'World Hepatitis Day 2022 Commemoration'}
             description={'To mark World Hepatitis Day 2022, HealthDrive Nigeria led a community awareness walk in Ikeja, Lagos State. We provided free Hepatitis B screening and conducted basic health checks, including blood pressure measurement, blood glucose testing, and malaria diagnosis, reaching members of the Ikeja community with critical health services.'}
         />
