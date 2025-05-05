@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import volunteer from '../assets/volunteer.png'
-import donate  from '../assets/donate.png'
-import fundraise from '../assets/fundraise.png'
+import speak from '../assets/speak.png'
+import social  from '../assets/social-care.png'
+import protection from '../assets/protection.png'
 import hdn from '../assets/hdn.png'
 
 export const Home = () => {
@@ -13,14 +13,14 @@ export const Home = () => {
   return (
     <>  
         <div className='absolute mt-4 ml-6'><button className="text-5xl text-white  lg:hidden" onClick={toggleSidenav}>☰</button></div>
-        <div className='absolute mt-10 w-full bg-transparent hidden md:block'>
+        <div className='absolute mt-6 w-full bg-transparent hidden md:block'>
             <div className='w-[83%] mx-auto bg-white rounded-3xl px-15 py-3 flex justify-between items-center'>
                 <div><img className='' src={hdn} alt="" /></div>
 
                 <div className='flex gap-8'>
                     <p className='text-[#CE3239] font-medium'>Home</p>
                     <p>About Us</p>
-                    <p>Our Works</p>
+                    {/* <p>Our Works</p> */}
                     <p>Blog</p>
                 </div>
 
@@ -44,9 +44,9 @@ export const Home = () => {
               <li className='border-b border-[#EDEBF5] pb-6'>
                 <p className="">About Us</p>
               </li>
-              <li className='border-b border-[#EDEBF5] pb-6'>
+              {/* <li className='border-b border-[#EDEBF5] pb-6'>
                 <p className="">Our Works</p>
-              </li>
+              </li> */}
               <li className='border-b border-[#EDEBF5] pb-6'>
                 <p className="">Blog</p>
               </li>
@@ -61,31 +61,33 @@ export const Home = () => {
       </div>
 
         <div className='bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(0,0,0,1))),url(https://res.cloudinary.com/frizzy/image/upload/v1741566073/Healthdrive/WOrks/home_1.jpg)] bg-cover bg-center bg-no-repeat min-h-[600px] md:min-h-[750px] flex items-center '>
-            <div className='z-30 w-10/12 mx-auto md:w-[61%] lg:w-[32%] md:mx-[9%]'>
-                <h2 className='text-white font-bold text-5xl md:text-6xl'>Lend a Helping Hand to Those in Need</h2>
-                <p className='text-white mt-4 text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.</p>
-                <button className='text-white bg-[#CE3239] py-3 px-6 rounded-xl mt-6 cursor-pointer hover:bg-red-500'>Donate Now</button>
+            <div className='z-30 w-10/12 mx-auto md:w-[61%] lg:w-[40%] md:mx-[9%]'>
+                <h2 className='text-white font-bold text-[40px] leading-10 md:text-6xl md:leading-16'>Tackling the menace of infectious diseases</h2>
+                <p className='text-white mt-4 text-sm md:text-base'>Every year, millions in underserved communities lack access to basic healthcare services to manage infectious diseases, especially Viral Hepatitis. HealthDrive Nigeria is committed to changing this story by bringing lifesaving screening, vaccinations, and education on infectious diseases directly to those who need it most. Your involvement can help us reach even more lives, break the cycle of preventable illnesses, and build healthier futures.</p>
+                <br />
+                <p className='font-semibold text-sm text-white md:text-base'>Join us today — let's drive health, together.</p>
+                <button className='text-white bg-[#CE3239] py-3 px-6 rounded-xl mt-6 cursor-pointer hover:bg-red-500'>Get Involved</button>
             </div>
         </div>
 
 
         <div className='bg-white shadow-[2px_8px_20px_rgba(9,9,9,0.2)] w-11/12 md:w-[86%] lg:w-[83%] mx-auto my-4 rounded-3xl md:flex md:relative md:bottom-[100px] lg:bottom-[130px]'>
             <div className='p-10'>
-                <img className='w-13' src={volunteer} alt="" />
-                <h3 className='font-medium mt-3 text-xl'>Become a volunteer</h3>
-                <p className='text-[#4f4f4f] text-sm mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. </p>
+                <div className='p-3 bg-green-400 rounded-full w-fit text-center'><img className='w-9' src={speak} alt="" /></div>
+                <h3 className='font-medium mt-3 text-xl'>Community Health Talk</h3>
+                <p className='text-[#4f4f4f] text-sm mt-1'>Bring HealthDrive Nigeria to your school, workplace, or church. Empower your community with life-saving knowledge about hepatitis, malaria, HIV, and more. </p>
             </div>
 
             <div className='p-10'>
-                <img className='w-13' src={donate} alt="" />
-                <h3 className='font-medium mt-3 text-xl'>Start Donating</h3>
-                <p className='text-[#4f4f4f] text-sm mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. </p>
+                <div className='p-3 bg-green-400 rounded-full w-fit text-center'><img className='w-9' src={social} alt="" /></div>
+                <h3 className='font-medium mt-3 text-xl'>Sponsor a Health Outreach</h3>
+                <p className='text-[#4f4f4f] text-sm mt-1'>Directly fund screening drives, vaccination campaigns, and treatments for hard-to-reach communities. See your impact in real numbers and real lives.</p>
             </div>
 
             <div className='p-10'>
-                <img className='w-13' src={fundraise} alt="" />
-                <h3 className='font-medium mt-3 text-xl'>Quick Fundraise</h3>
-                <p className='text-[#4f4f4f] text-sm mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. </p>
+                <div className='p-3 bg-green-400 rounded-full w-fit text-center'><img className='w-9' src={protection} alt="" /></div>
+                <h3 className='font-medium mt-3 text-xl'>Adopt a Community Program</h3>
+                <p className='text-[#4f4f4f] text-sm mt-1'>Adopt a local area for year-round health education, monitoring, and vaccination efforts through HealthDrive Nigeria. Build sustainable change village by village.</p>
             </div>
         </div>
     </>

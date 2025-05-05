@@ -13,18 +13,18 @@ export const Projects = () => {
         <CustomcardLR 
             mainImage={'https://res.cloudinary.com/frizzy/image/upload/v1741562012/Healthdrive/WOrks/Globalweek1.jpg'}
             overlay={'https://res.cloudinary.com/frizzy/image/upload/v1741562008/Healthdrive/WOrks/globalweek2.jpg'}
-            title={'Global Week Project'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.'}
+            title={'Global Goals Week Project '}
+            description={'HealthDrive Nigeria collaborated with the Sustainable Development Goals Awareness Campaign Tour (SDGsACT), Lagos State University Chapter, to drive awareness about the Sustainable Development Goals and viral hepatitis. We organized an awareness campaign walk across the university community, reaching over 20,000 students and staff members. The event concluded with free Hepatitis B screenings for hundreds of young people and a focused health education session.'}
         />
 
         <CustomcardRL
             mainImage={'https://res.cloudinary.com/frizzy/image/upload/v1741563023/Healthdrive/WOrks/WHD22.png'}
             overlay={'https://res.cloudinary.com/frizzy/image/upload/v1741563026/Healthdrive/WOrks/whd222.png'}
-            title={'2022 WHD Project'}
-            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.'}
+            title={'World Hepatitis Day 2022 Commemoration'}
+            description={'To mark World Hepatitis Day 2022, HealthDrive Nigeria led a community awareness walk in Ikeja, Lagos State. We provided free Hepatitis B screening and conducted basic health checks, including blood pressure measurement, blood glucose testing, and malaria diagnosis, reaching members of the Ikeja community with critical health services.'}
         />
 
-        <CustomcardLR 
+        {/* <CustomcardLR 
             mainImage={'https://res.cloudinary.com/frizzy/image/upload/v1741562012/Healthdrive/WOrks/Globalweek1.jpg'}
             overlay={'https://res.cloudinary.com/frizzy/image/upload/v1741562008/Healthdrive/WOrks/globalweek2.jpg'}
             title={'2021 WHD Project'}
@@ -36,7 +36,7 @@ export const Projects = () => {
             overlay={'https://res.cloudinary.com/frizzy/image/upload/v1741562874/Healthdrive/WOrks/21whd4.jpg'}
             title={'2021 WHD 2 Project'}
             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. Viverra aenean sagittis tincidunt id.  Ut orci lectus nec proin aenean sempe.'}
-        />
+        /> */}
     </div>
   )
 }

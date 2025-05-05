@@ -14,9 +14,9 @@ export const Contact = () => {
             <div className='mt-6'>
                 <p className='text-lg lg:text-2xl font-semibold'>Social Media Accounts</p>
                 <div className='gap-3 flex mt-4'>
-                    <a className='p-2 w-fit inline-block bg-[#F4F5F7] rounded-full' href=""><img src={insta} alt="" /></a>
-                    <a className='p-2 w-fit inline-block bg-[#F4F5F7] rounded-full' href=""><img src={twitter} alt="" /></a>
-                    <a className='p-2 w-fit inline-block bg-[#F4F5F7] rounded-full' href=""><img src={linkedin} alt="" /></a>
+                    <a className='p-2 w-fit inline-block bg-[#F4F5F7] rounded-full' href="https://www.instagram.com/healthdrivenigeria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank'><img src={insta} alt="" /></a>
+                    <a className='p-2 w-fit inline-block bg-[#F4F5F7] rounded-full' href="https://x.com/HealthdriveNg" target='_blank'><img src={twitter} alt="" /></a>
+                    <a className='p-2 w-fit inline-block bg-[#F4F5F7] rounded-full' href="https://www.linkedin.com/company/healthdriveng/" target='_blank'><img src={linkedin} alt="" /></a>
                 </div>
             </div>
 

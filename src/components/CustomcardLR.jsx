@@ -11,7 +11,7 @@ export const CustomcardLR = ({mainImage, overlay, title, description}) => {
 
             <div className='lg:w-[100%] mt-8 md:mt-0 w-[88%] text-justify mx-auto md:flex flex-col justify-center'>
                 <h3 className='text-3xl font-medium'>{title}</h3>
-                <p className='text-[#4f4f4f] text-sm mt-2 leading-6'>{description}</p>
+                <p className='text-[#4f4f4f] text-sm lg:text-base mt-2 leading-6'>{description}</p>
             </div>
         </div>
     </div>
