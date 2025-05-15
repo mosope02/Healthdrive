@@ -1,5 +1,5 @@
 import React from 'react'
-import  hdnlogo from '../assets/hdnlogo.png'
+import  hdnlogo from '../../assets/hdnlogo.png'
 
 export const Footer = () => {
   return (

@@ -1,16 +1,16 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import blog1 from '../assets/blog1.png';
-import blog2 from '../assets/blog2.png';
-import blog3 from '../assets/blog3.png';
+import blog1 from '../../assets/blog1.png';
+import blog2 from '../../assets/blog2.png';
+import blog3 from '../../assets/blog3.png';
 import { Custombuttons } from './Custombuttons';
 
 
 const cardData =[
-    {id:1, image:blog1, date: "01 Mar 2025", headline:"Helping Community With High Rate Of Disabled Children", brief:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in."},
-    {id:2, image:blog2, date: "01 Mar 2025", headline:"Helping Community With High Rate Of Disabled Children", brief:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in."},
-    {id:3, image:blog3, date: "01 Mar 2025", headline:"Helping Community With High Rate Of Disabled Children", brief:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in."},
+    {id:1, image: "https://res.cloudinary.com/frizzy/image/upload/v1747320588/Healthdrive/WOrks/whd2-2024.jpg", date: "01 Mar 2025", headline:"Helping Community With High Rate Of Disabled Children", brief:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in."},
+    {id:2, image: "https://res.cloudinary.com/frizzy/image/upload/v1747320588/Healthdrive/WOrks/WHD-2024.jpg", date: "01 Mar 2025", headline:"Helping Community With High Rate Of Disabled Children", brief:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in."},
+    {id:3, image: blog3, date: "01 Mar 2025", headline:"Helping Community With High Rate Of Disabled Children", brief:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in."},
 ]
 export const Blog = () => {
     const responsive = {
@@ -44,7 +44,7 @@ export const Blog = () => {
         <Carousel className="flex mt-6 w-[88%] mx-auto" responsive={responsive} customButtonGroup={<Custombuttons />} draggable  infinite={true} partialVisbile={false} renderButtonGroupOutside={true} arrows={false} showDots={false} renderDotsOutside={false}>
             {cardData.map((card) => (
                 <div key={card.id} className='bg-white max-w-[330px] md:max-w-[330px] lg:max-w-96 mx-auto px-4 py-3 rounded-3xl shadow-[2px_8px_20px_rgba(181,181,181,0.2)]'> {/* CARD */}
-                    <img src={card.image} alt="" />
+                    <img src={card.image} className='h-[225px] w-[350px] ' alt="" />
                     <p className='mt-3 text-[#828282] text-xs'>{card.date}</p>
                     <h3 className='text-lg font-medium mt-3'>{card.headline}</h3>
                     <p className='text-[#2b2b2b] text-sm mt-2 leading-6'>{card.brief}</p>

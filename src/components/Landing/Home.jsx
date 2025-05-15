@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
-import speak from '../assets/speak.png'
-import social  from '../assets/social-care.png'
-import protection from '../assets/protection.png'
-import hdn from '../assets/hdn.png'
+import speak from '../../assets/speak.png'
+import social  from '../../assets/social-care.png'
+import protection from '../../assets/protection.png'
+import hdn from '../../assets/hdn.png'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,8 @@ export const Home = () => {
     };
   return (
     <>  
-        <div className='absolute mt-4 ml-6'><button className="text-5xl text-white  lg:hidden" onClick={toggleSidenav}>☰</button></div>
+        <div className='absolute top-0 mt-0 ml-6'><button className="text-5xl text-white  md:hidden" onClick={toggleSidenav}>☰</button> </div>
+        <div className='top-0 right-5 mt-2 absolute w-fit md:hidden'><Link to="/"><img className='h-10' src={hdn} alt="" /></Link> </div>
         <div className='absolute mt-6 w-full bg-transparent hidden md:block'>
             <div className='w-[83%] mx-auto bg-white rounded-3xl px-15 py-3 flex justify-between items-center'>
                 <div><img className='' src={hdn} alt="" /></div>
@@ -30,29 +32,29 @@ export const Home = () => {
 
         {/* Sidenav */}
         <div className={`fixed z-50 top-0 left-0 h-full bg-white shadow-lg transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 w-64 flex flex-col justify-between`}>
-        <div>
-          <div className='flex justify-end mt-10 px-9'>
-            <button className="text-3xl px-6 inline-block" onClick={toggleSidenav}>
-              X
-            </button>
+          <div>
+            <div className='flex justify-end mt-10 px-9'>
+              <button className="text-3xl px-6 inline-block" onClick={toggleSidenav}>
+                X
+              </button>
+            </div>
+            <nav className="mt-16">
+              <ul className="flex flex-col gap-12 mt-24 mx-10 text-[#141414]">
+                <li className='border-b border-[#EDEBF5] pb-6'>
+                  <p className="">Home</p>
+                </li>
+                <li className='border-b border-[#EDEBF5] pb-6'>
+                  <p className="">About Us</p>
+                </li>
+                {/* <li className='border-b border-[#EDEBF5] pb-6'>
+                  <p className="">Our Works</p>
+                </li> */}
+                <li className='border-b border-[#EDEBF5] pb-6'>
+                  <p className="">Blog</p>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <nav className="mt-16">
-            <ul className="flex flex-col gap-12 mt-24 mx-10 text-[#141414]">
-              <li className='border-b border-[#EDEBF5] pb-6'>
-                <p className="">Home</p>
-              </li>
-              <li className='border-b border-[#EDEBF5] pb-6'>
-                <p className="">About Us</p>
-              </li>
-              {/* <li className='border-b border-[#EDEBF5] pb-6'>
-                <p className="">Our Works</p>
-              </li> */}
-              <li className='border-b border-[#EDEBF5] pb-6'>
-                <p className="">Blog</p>
-              </li>
-            </ul>
-          </nav>
-        </div>
 
         {/* Logo at the Bottom */}
         <div className="px-10 pb-10">

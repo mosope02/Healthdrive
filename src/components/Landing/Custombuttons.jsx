@@ -1,6 +1,6 @@
 import React from 'react'
-import arrowfront from '../assets/arrowfront.png';
-import arrowback from '../assets/arrowback.png';
+import arrowfront from '../../assets/arrowfront.png';
+import arrowback from '../../assets/arrowback.png';
 
 export const Custombuttons = ({ next, previous, ...rest }) => {
   return (

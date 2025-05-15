@@ -1,23 +1,19 @@
-import { useState } from 'react'
 import './App.css'
-import { Footer } from './components/Footer'
-import { Contact } from './components/Contact'
-import { Blog } from './components/Blog'
-import { Projects } from './components/Projects'
-import { About } from './components/About'
-import { Home } from './components/Home'
+import { Routes, Route } from 'react-router-dom'
+import { Landing } from './components/Landing/Landing'
+import { Error } from './components/Error'
 
 function App() {
 
   return (
-    <>
-      <Home />
-      <About />
-      <Projects />
-      <Blog />
-      <Contact />
-      <Footer />
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        {/* <Route path="blog" />
+        <Route path="/blog/:slug" /> */}
+        <Route path="*" element={<Error />}/>
+      </Routes>
+    </div>
   )
 }
 
