@@ -3,64 +3,16 @@ import speak from '../../assets/speak.png'
 import social  from '../../assets/social-care.png'
 import protection from '../../assets/protection.png'
 import hdn from '../../assets/hdn.png'
-import { Link } from 'react-router-dom'
+
 
 export const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleSidenav = () => {
-        setIsOpen(!isOpen);
-    };
+    
   return (
     <>  
-        <div className='absolute top-0 mt-0 ml-6'><button className="text-5xl text-white  md:hidden" onClick={toggleSidenav}>☰</button> </div>
-        <div className='top-0 right-5 mt-2 absolute w-fit md:hidden'><Link to="/"><img className='h-10' src={hdn} alt="" /></Link> </div>
-        <div className='absolute mt-6 w-full bg-transparent hidden md:block'>
-            <div className='w-[83%] mx-auto bg-white rounded-3xl px-15 py-3 flex justify-between items-center'>
-                <div><img className='' src={hdn} alt="" /></div>
+        
+        
 
-                <div className='flex gap-8'>
-                    <p className='text-[#CE3239] font-medium'>Home</p>
-                    <p>About Us</p>
-                    {/* <p>Our Works</p> */}
-                    <p>Blog</p>
-                </div>
-
-                <div><a href="#contact"><button className='bg-[#CE3239] text-white py-3 px-6 rounded-xl cursor-pointer hover:bg-red-500'>Contact Us</button></a></div>
-            </div>
-        </div>
-
-        {/* Sidenav */}
-        <div className={`fixed z-50 top-0 left-0 h-full bg-white shadow-lg transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 w-64 flex flex-col justify-between`}>
-          <div>
-            <div className='flex justify-end mt-10 px-9'>
-              <button className="text-3xl px-6 inline-block" onClick={toggleSidenav}>
-                X
-              </button>
-            </div>
-            <nav className="mt-16">
-              <ul className="flex flex-col gap-12 mt-24 mx-10 text-[#141414]">
-                <li className='border-b border-[#EDEBF5] pb-6'>
-                  <p className="">Home</p>
-                </li>
-                <li className='border-b border-[#EDEBF5] pb-6'>
-                  <p className="">About Us</p>
-                </li>
-                {/* <li className='border-b border-[#EDEBF5] pb-6'>
-                  <p className="">Our Works</p>
-                </li> */}
-                <li className='border-b border-[#EDEBF5] pb-6'>
-                  <p className="">Blog</p>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
-        {/* Logo at the Bottom */}
-        <div className="px-10 pb-10">
-        <a href="/"><img src={hdn} alt="Logo" /></a>
-        </div>
-      </div>
+        
 
         <div className='bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(0,0,0,1))),url(https://res.cloudinary.com/frizzy/image/upload/w_1600,q_auto,f_auto/v1741566073/Healthdrive/WOrks/home_1.jpg)] bg-cover bg-center bg-no-repeat min-h-[600px] md:min-h-[750px] flex items-center '>
             <div className='z-30 w-10/12 mx-auto md:w-[61%] lg:w-[40%] md:mx-[9%]'>

@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.png'
 
 export const Contact = () => {
   return (
-    <div id='contact' className='py-6 lg:flex lg:w-[84%] mx-auto'>
+    <div id='contact' className='py-6 lg:flex lg:w-[84%] mx-auto mb-10 lg:mb-20'>
         <div className='w-[90%] lg:w-full mx-auto bg-[url(https://res.cloudinary.com/frizzy/image/upload/v1741392152/Healthdrive/worldmap.png)] bg-cover bg-center bg-no-repeat'>
             <h3>CONTACT US</h3>
             <p className='mt-3 font-semibold text-2xl lg:text-4xl lg:w-[80%]'>We are always ready to assist you with any enquiry you’d like make.</p>
