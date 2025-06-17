@@ -9,7 +9,7 @@ export const Contact = () => {
         <div className='w-[90%] lg:w-full mx-auto bg-[url(https://res.cloudinary.com/frizzy/image/upload/v1741392152/Healthdrive/worldmap.png)] bg-cover bg-center bg-no-repeat'>
             <h3>CONTACT US</h3>
             <p className='mt-3 font-semibold text-2xl lg:text-4xl lg:w-[80%]'>We are always ready to assist you with any enquiry you’d like make.</p>
-            <p className='mt-4 text-sm lg:w-[80%] lg:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut orci lectus nec proin aenean semper suspendisse in. </p>
+            <p className='mt-4 text-sm lg:w-[80%] lg:text-base'>Get in touch with us, and we would have a feedback as soon as possible.</p>
 
             <div className='mt-6'>
                 <p className='text-lg lg:text-2xl font-semibold'>Social Media Accounts</p>
@@ -25,7 +25,7 @@ export const Contact = () => {
                 <p className='mt-2 text-sm lg:text-base'>Healthdrive@gmail.com</p>
 
                 <p className='font-medium text-lg mt-8 lg:mt-10 lg:text-2xl'>WhatsApp Contact</p>
-                <p className='mt-2 text-sm lg:text-base'>070 0000 0000</p>
+                <p className='mt-2 text-sm lg:text-base'>+234 817 627 4571</p>
             </div>
         </div>
 

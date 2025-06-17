@@ -5,6 +5,7 @@ import { Projects } from './Projects'
 import { Blog } from './Blog'
 import { Contact } from './Contact'
 import { Footer } from './Footer'
+import { Partners } from './Partners'
 
 export const Landing = () => {
   return (
@@ -12,7 +13,8 @@ export const Landing = () => {
         <Home />
         <About />
         <Projects />
-        <Blog />
+        {/* <Blog /> */}
+        <Partners />
         <Contact />
         <Footer />
     </div>
