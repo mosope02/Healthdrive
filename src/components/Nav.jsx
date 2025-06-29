@@ -28,7 +28,7 @@ export const Nav = () => {
          </div>
 
          <div className='absolute top-0 mt-0 ml-6'><button className="text-5xl text-white  md:hidden" onClick={toggleSidenav}>☰</button> </div>
-        <div className='top-0 right-5 mt-2 absolute w-fit md:hidden'><Link to="/"><img className='h-10' src={hdn} alt="" /></Link> </div>
+        <div className='top-0 right-5 mt-2 absolute w-fit md:hidden'><Link to="/"><img className='' src={hdn} alt="" /></Link> </div>
 
             {/* Sidenav */}
             <div className={`fixed z-50 top-0 left-0 h-full bg-white shadow-lg transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 w-64 flex flex-col justify-between`}>

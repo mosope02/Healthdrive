@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div>
         <div className='bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(0,0,0,0.5))),url(https://res.cloudinary.com/frizzy/image/upload/q_auto,f_auto/v1747320588/Healthdrive/WOrks/whd2-2024.jpg)] bg-cover bg-center bg-no-repeat min-h-[500px] md:min-h-[600px] flex items-center'>
-            <p className='text-white font-bold text-[36px] leading-10 md:text-6xl md:leading-16 lg:text-6xl w-4/5 md:w-1/2 ml-[9%] mt-[5%]'>Reducing the prevalence of hepatitis in Nigeria through.</p>
+            <p className='text-white font-bold text-[36px] leading-10 md:text-6xl md:leading-16 lg:text-6xl w-4/5 md:w-1/2 ml-[9%] mt-[5%]'>Reducing The Prevalence of Hepatitis in Nigeria through Advocacy.</p>
         </div>
 
         {/* What we do */}

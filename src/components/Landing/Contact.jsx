@@ -22,7 +22,7 @@ export const Contact = () => {
 
             <div>
                 <p className='font-medium text-lg mt-8 lg:mt-10 lg:text-2xl'>Email Address</p>
-                <p className='mt-2 text-sm lg:text-base'>Healthdrive@gmail.com</p>
+                <p className='mt-2 text-sm lg:text-base'>healthdriveinitiative@gmail.com</p>
 
                 <p className='font-medium text-lg mt-8 lg:mt-10 lg:text-2xl'>WhatsApp Contact</p>
                 <p className='mt-2 text-sm lg:text-base'>+234 817 627 4571</p>

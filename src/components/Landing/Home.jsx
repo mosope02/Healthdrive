@@ -3,17 +3,13 @@ import speak from '../../assets/speak.png'
 import social  from '../../assets/social-care.png'
 import protection from '../../assets/protection.png'
 import hdn from '../../assets/hdn.png'
+import { ReactTyped } from "react-typed";
 
 
 export const Home = () => {
     
   return (
     <>  
-        
-        
-
-        
-
         <div className='bg-[linear-gradient(to_left,rgba(0,0,0,0),rgba(0,0,0,1))),url(https://res.cloudinary.com/frizzy/image/upload/w_1600,q_auto,f_auto/v1741566073/Healthdrive/WOrks/home_1.jpg)] bg-cover bg-center bg-no-repeat min-h-[600px] md:min-h-[750px] flex items-center '>
             <div className='z-30 w-10/12 mx-auto md:w-[61%] lg:w-[40%] md:mx-[9%]'>
                 <h2 className='text-white font-bold text-[40px] leading-10 md:text-6xl md:leading-16'>Tackling the menace of infectious diseases</h2>

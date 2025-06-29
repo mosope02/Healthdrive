@@ -18,6 +18,7 @@ export const Partners = () => {
             <div><img className='w-28 md:w-40 mx-4 md:mx-8 lg:mx-12' src="https://res.cloudinary.com/frizzy/image/upload/v1750147216/Healthdrive/sponsors/Lasu.png" alt="" /></div>
             <div><img className='w-28 md:w-40 mx-4 md:mx-8 lg:mx-12' src="https://res.cloudinary.com/frizzy/image/upload/v1750147253/Healthdrive/sponsors/cambridge.png" alt="" /></div>
             <div><img className='w-28 md:w-40 mx-4 md:mx-8 lg:mx-12' src="https://res.cloudinary.com/frizzy/image/upload/v1750147164/Healthdrive/sponsors/QuantEdge.png" alt="" /></div>
+            <div><img className='w-28 md:w-40 mx-4 md:mx-8 lg:mx-12' src="https://res.cloudinary.com/frizzy/image/upload/v1751196061/Healthdrive/sponsors/Myitura.png" alt="" /></div>
         </Marquee>
     </div>
   )
